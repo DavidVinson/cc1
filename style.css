@@ -1,0 +1,30 @@
+div {
+  background-color: red;
+  margin-top: 1.5rem;
+  border: 0.25rem solid black;
+  color: white;
+}
+
+button {
+  background-color: rgb(0, 208, 255);
+  color: white;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+div > button {
+  background-color: lightgrey;
+  color: black;
+  border: 3px solid black;
+}
